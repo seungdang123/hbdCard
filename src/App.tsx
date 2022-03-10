@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { motion, AnimatePresence } from "framer-motion";
 import Logo from "./components/Logo";
+import Mail from "./components/Mail";
 
 const Wrapper = styled(motion.div)`
   background: rgb(215, 103, 245);
@@ -21,6 +22,7 @@ function App() {
   return (
     <Wrapper>
       <Logo />
+      <Mail />
     </Wrapper>
   );
 }
