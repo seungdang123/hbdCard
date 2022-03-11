@@ -19,17 +19,23 @@ const svg = {
   },
 };
 
+const Wrapper = styled(motion.div)`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+`;
+
 const Logo = () => {
   const [isVisible, setIsVisible] = useState(true);
 
   setTimeout(() => {
     setIsVisible(false);
   }, 4000);
-
   return (
     <AnimatePresence>
       {isVisible && (
-        <motion.div
+        <Wrapper
           exit={{ x: 500, y: -500, scale: 0.1, opacity: 0 }}
           transition={{ default: { duration: 2 } }}
         >
@@ -52,7 +58,7 @@ const Logo = () => {
               }}
             ></motion.path>
           </Svg>
-        </motion.div>
+        </Wrapper>
       )}
     </AnimatePresence>
   );
