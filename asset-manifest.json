@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/hbdCard/static/js/main.b9697147.js",
+    "main.js": "/hbdCard/static/js/main.ccdb5025.js",
     "index.html": "/hbdCard/index.html",
-    "main.b9697147.js.map": "/hbdCard/static/js/main.b9697147.js.map"
+    "main.ccdb5025.js.map": "/hbdCard/static/js/main.ccdb5025.js.map"
   },
   "entrypoints": [
-    "static/js/main.b9697147.js"
+    "static/js/main.ccdb5025.js"
   ]
 }
