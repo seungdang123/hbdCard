@@ -51,8 +51,25 @@ const Letter = (props: IProps) => {
           initial={"start"}
           animate={"end"}
           exit={"exit"}
+          style={{
+            display: "flex",
+            alignContent: "center",
+            justifyContent: "center",
+            flexDirection: "column",
+          }}
         >
-          <p>Text</p>
+          <h1
+            style={{
+              textAlign: "center",
+              color: "#9999ff",
+              marginBottom: "30px",
+            }}
+          >
+            🎂 Happy birthday
+          </h1>
+          <h3 style={{ textAlign: "center", color: "#FF99CC" }}>
+            Always be happy and healthy.
+          </h3>
           <Button
             onClick={() => {
               setVisible(false);
